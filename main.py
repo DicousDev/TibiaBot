@@ -59,8 +59,8 @@ def obter_vida_e_mana(box):
   vida = 1
   mana = 1
   if(len(vida_e_mana) == 2):
-    vida = filtrar_numeros(vida_e_mana[0])
-    mana = filtrar_numeros(vida_e_mana[1])
+    vida = vida_e_mana[0]
+    mana = vida_e_mana[1]
   return {'vida': vida, 'mana': mana}
 
 def curar_quando_for_necessario(box):
