@@ -109,6 +109,5 @@ while(True):
     elif(waypoint_atual == 2):
       coordenada_player_destination_x = coordenada_player_start_x
       coordenada_player_destination_y = coordenada_player_start_y
-      print(f"Coordenada atual: {coordenada_player_destination_x} - {coordenada_player_destination_y}")
       goToPositionByMinimap(coordenada_player_destination_x, coordenada_player_destination_y)
     
